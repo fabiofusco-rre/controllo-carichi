@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.0",
+    "node-fetch": "^2.6.7",
+    "sass": "^1.56.0",
+    "smart-webcomponents": "^14.4.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "name": "load-manager",
+  "version": "1.0.0",
+  "description": "Home assistant add-on to manage grid loads",
+  "private": true,
+  "scripts": {
+    "build:scripts": "webpack --config webpack/webpack.dev.js",
+    "build:styles": "sass --no-source-map app/frontend/src/index.sass app/frontend/dist/index.css",
+    "build:prod": "npm run build:scripts && webpack --config webpack/webpack.prod.js",
+    "build": "npm run build:scripts && npm run build:styles ",
+    "watch:scripts": "nodemon -e js -x \"npm run build:scripts\"",
+    "watch:styles": "nodemon -e sass -x \"npm run build:styles\"",
+    "watch": "nodemon -e js,sass -x \"npm run build\"",
+    "serve": "nodemon app/backend/index.js"
+  },
+  "keywords": [
+    "home",
+    "assistant",
+    "load",
+    "manager",
+    "addon"
+  ],
+  "author": "Henrique Milli",
+  "license": "MIT"
+}

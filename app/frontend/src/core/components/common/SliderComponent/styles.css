@@ -1,0 +1,34 @@
+
+
+
+/* background */
+#range-slider-bt {
+    width: 100%;
+    height: 35px; 
+    background-color: #F8F8FF;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+/* maniglie */
+#range-slider-bt .range-slider__thumb {
+    width: 12px;
+    height: 100%;
+    border-radius: 4px;
+}
+
+/* REGOLA PER CAMBIRE IL COLORE */
+/* tutti (primo) */
+#range-slider-bt > .range-slider__thumb {
+  background-color: var(--colorFirstThumb, #37474f);
+}
+/* tutti tranne il primo (secondo)*/
+#range-slider-bt > .range-slider__thumb ~ .range-slider__thumb {
+  background-color: var(--colorSecondThumb, #37474f);
+}
+
+/* range */
+#range-slider-bt .range-slider__range {
+  background: var(--rangeColor);
+  border-radius: 6px;
+}

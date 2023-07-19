@@ -1,0 +1,269 @@
+{
+  "workMode":{
+    "exit":{
+      "label": "Exit",
+      "startValue": 6,
+      "color": "#00A8F4"
+    },
+    "eco":{
+      "label": "Eco",
+      "startValue": 18,
+      "color": "#02B341"
+    },
+    "comfort":{
+      "label": "Comfort",
+      "startValue": 18,
+      "color": "#FFA601"
+    }
+  },
+  "days":{
+    "lun":{
+      "key":"lun",
+      "name": "Lunedì",
+      "shortName": "Lun"
+    },
+    "mar":{
+      "key":"mar",
+      "name": "Martedì",
+      "shortName": "Mar"
+    },
+    "mer":{
+      "key":"mer",
+      "name": "Mercoledì",
+      "shortName": "Mer"
+    },
+    "gio":{
+      "key":"gio",
+      "name": "Giovedì",
+      "shortName": "Gio"
+    },
+    "ven":{
+      "key":"ven",
+      "name": "Venerdì",
+      "shortName": "Ven"
+    },
+    "sab":{
+      "key":"sab",
+      "name": "Sabato",
+      "shortName": "Sab"
+    },
+    "dom":{
+      "key":"dom",
+      "name": "Domentica",
+      "shortName": "Dom"
+    }
+  },
+  "templateZone":{
+    "zoneName": "Template",
+    "workMode":{
+      "exit": 6,
+      "eco": 20,
+      "comfort": 26
+    },
+    "weeklyProgramming":{
+      "lun":{
+        "dayName":"Lun",
+        "schedule":[
+          { "hour": "00", "workMode": "exit" },
+          { "hour": "01", "workMode": "exit" },
+          { "hour": "02", "workMode": "exit" },
+          { "hour": "03", "workMode": "exit" },
+          { "hour": "04", "workMode": "exit" },
+          { "hour": "05", "workMode": "exit" },
+          { "hour": "06", "workMode": "exit" },
+          { "hour": "07", "workMode": "exit" },
+          { "hour": "08", "workMode": "exit" },
+          { "hour": "09", "workMode": "exit" },
+          { "hour": "10", "workMode": "exit" },
+          { "hour": "11", "workMode": "exit" },
+          { "hour": "12", "workMode": "exit" },
+          { "hour": "13", "workMode": "exit" },
+          { "hour": "14", "workMode": "exit" },
+          { "hour": "15", "workMode": "exit" },
+          { "hour": "16", "workMode": "exit" },
+          { "hour": "17", "workMode": "exit" },
+          { "hour": "18", "workMode": "exit" },
+          { "hour": "19", "workMode": "exit" },
+          { "hour": "20", "workMode": "exit" },
+          { "hour": "21", "workMode": "exit" },
+          { "hour": "22", "workMode": "exit" },
+          { "hour": "23", "workMode": "exit" }
+        ]
+      },
+      "mar":{
+        "dayName":"Mar",
+        "schedule":[
+          { "hour": "00", "workMode": "exit" },
+          { "hour": "01", "workMode": "exit" },
+          { "hour": "02", "workMode": "exit" },
+          { "hour": "03", "workMode": "exit" },
+          { "hour": "04", "workMode": "exit" },
+          { "hour": "05", "workMode": "exit" },
+          { "hour": "06", "workMode": "exit" },
+          { "hour": "07", "workMode": "exit" },
+          { "hour": "08", "workMode": "exit" },
+          { "hour": "09", "workMode": "exit" },
+          { "hour": "10", "workMode": "exit" },
+          { "hour": "11", "workMode": "exit" },
+          { "hour": "12", "workMode": "exit" },
+          { "hour": "13", "workMode": "exit" },
+          { "hour": "14", "workMode": "exit" },
+          { "hour": "15", "workMode": "exit" },
+          { "hour": "16", "workMode": "exit" },
+          { "hour": "17", "workMode": "exit" },
+          { "hour": "18", "workMode": "exit" },
+          { "hour": "19", "workMode": "exit" },
+          { "hour": "20", "workMode": "exit" },
+          { "hour": "21", "workMode": "exit" },
+          { "hour": "22", "workMode": "exit" },
+          { "hour": "23", "workMode": "exit" }
+        ]
+      },
+      "mer":{
+        "dayName":"Mer",
+        "schedule":[
+          { "hour": "00", "workMode": "exit" },
+          { "hour": "01", "workMode": "exit" },
+          { "hour": "02", "workMode": "exit" },
+          { "hour": "03", "workMode": "exit" },
+          { "hour": "04", "workMode": "exit" },
+          { "hour": "05", "workMode": "exit" },
+          { "hour": "06", "workMode": "exit" },
+          { "hour": "07", "workMode": "exit" },
+          { "hour": "08", "workMode": "exit" },
+          { "hour": "09", "workMode": "exit" },
+          { "hour": "10", "workMode": "exit" },
+          { "hour": "11", "workMode": "exit" },
+          { "hour": "12", "workMode": "exit" },
+          { "hour": "13", "workMode": "exit" },
+          { "hour": "14", "workMode": "exit" },
+          { "hour": "15", "workMode": "exit" },
+          { "hour": "16", "workMode": "exit" },
+          { "hour": "17", "workMode": "exit" },
+          { "hour": "18", "workMode": "exit" },
+          { "hour": "19", "workMode": "exit" },
+          { "hour": "20", "workMode": "exit" },
+          { "hour": "21", "workMode": "exit" },
+          { "hour": "22", "workMode": "exit" },
+          { "hour": "23", "workMode": "exit" }
+        ]
+      },
+      "gio":{
+        "dayName":"Gio",
+        "schedule":[
+          { "hour": "00", "workMode": "exit" },
+          { "hour": "01", "workMode": "exit" },
+          { "hour": "02", "workMode": "exit" },
+          { "hour": "03", "workMode": "exit" },
+          { "hour": "04", "workMode": "exit" },
+          { "hour": "05", "workMode": "exit" },
+          { "hour": "06", "workMode": "exit" },
+          { "hour": "07", "workMode": "exit" },
+          { "hour": "08", "workMode": "exit" },
+          { "hour": "09", "workMode": "exit" },
+          { "hour": "10", "workMode": "exit" },
+          { "hour": "11", "workMode": "exit" },
+          { "hour": "12", "workMode": "exit" },
+          { "hour": "13", "workMode": "exit" },
+          { "hour": "14", "workMode": "exit" },
+          { "hour": "15", "workMode": "exit" },
+          { "hour": "16", "workMode": "exit" },
+          { "hour": "17", "workMode": "exit" },
+          { "hour": "18", "workMode": "exit" },
+          { "hour": "19", "workMode": "exit" },
+          { "hour": "20", "workMode": "exit" },
+          { "hour": "21", "workMode": "exit" },
+          { "hour": "22", "workMode": "exit" },
+          { "hour": "23", "workMode": "exit" }
+        ]
+      },
+      "ven":{
+        "dayName":"Ven",
+        "schedule":[
+          { "hour": "00", "workMode": "exit" },
+          { "hour": "01", "workMode": "exit" },
+          { "hour": "02", "workMode": "exit" },
+          { "hour": "03", "workMode": "exit" },
+          { "hour": "04", "workMode": "exit" },
+          { "hour": "05", "workMode": "exit" },
+          { "hour": "06", "workMode": "exit" },
+          { "hour": "07", "workMode": "exit" },
+          { "hour": "08", "workMode": "exit" },
+          { "hour": "09", "workMode": "exit" },
+          { "hour": "10", "workMode": "exit" },
+          { "hour": "11", "workMode": "exit" },
+          { "hour": "12", "workMode": "exit" },
+          { "hour": "13", "workMode": "exit" },
+          { "hour": "14", "workMode": "exit" },
+          { "hour": "15", "workMode": "exit" },
+          { "hour": "16", "workMode": "exit" },
+          { "hour": "17", "workMode": "exit" },
+          { "hour": "18", "workMode": "exit" },
+          { "hour": "19", "workMode": "exit" },
+          { "hour": "20", "workMode": "exit" },
+          { "hour": "21", "workMode": "exit" },
+          { "hour": "22", "workMode": "exit" },
+          { "hour": "23", "workMode": "exit" }
+        ]
+      },
+      "sab":{
+        "dayName":"Sab",
+        "schedule":[
+          { "hour": "00", "workMode": "exit" },
+          { "hour": "01", "workMode": "exit" },
+          { "hour": "02", "workMode": "exit" },
+          { "hour": "03", "workMode": "exit" },
+          { "hour": "04", "workMode": "exit" },
+          { "hour": "05", "workMode": "exit" },
+          { "hour": "06", "workMode": "exit" },
+          { "hour": "07", "workMode": "exit" },
+          { "hour": "08", "workMode": "exit" },
+          { "hour": "09", "workMode": "exit" },
+          { "hour": "10", "workMode": "exit" },
+          { "hour": "11", "workMode": "exit" },
+          { "hour": "12", "workMode": "exit" },
+          { "hour": "13", "workMode": "exit" },
+          { "hour": "14", "workMode": "exit" },
+          { "hour": "15", "workMode": "exit" },
+          { "hour": "16", "workMode": "exit" },
+          { "hour": "17", "workMode": "exit" },
+          { "hour": "18", "workMode": "exit" },
+          { "hour": "19", "workMode": "exit" },
+          { "hour": "20", "workMode": "exit" },
+          { "hour": "21", "workMode": "exit" },
+          { "hour": "22", "workMode": "exit" },
+          { "hour": "23", "workMode": "exit" }
+        ]
+      },
+      "dom":{
+        "dayName":"Dom",
+        "schedule":[
+          { "hour": "00", "workMode": "exit" },
+          { "hour": "01", "workMode": "exit" },
+          { "hour": "02", "workMode": "exit" },
+          { "hour": "03", "workMode": "exit" },
+          { "hour": "04", "workMode": "exit" },
+          { "hour": "05", "workMode": "exit" },
+          { "hour": "06", "workMode": "exit" },
+          { "hour": "07", "workMode": "exit" },
+          { "hour": "08", "workMode": "exit" },
+          { "hour": "09", "workMode": "exit" },
+          { "hour": "10", "workMode": "exit" },
+          { "hour": "11", "workMode": "exit" },
+          { "hour": "12", "workMode": "exit" },
+          { "hour": "13", "workMode": "exit" },
+          { "hour": "14", "workMode": "exit" },
+          { "hour": "15", "workMode": "exit" },
+          { "hour": "16", "workMode": "exit" },
+          { "hour": "17", "workMode": "exit" },
+          { "hour": "18", "workMode": "exit" },
+          { "hour": "19", "workMode": "exit" },
+          { "hour": "20", "workMode": "exit" },
+          { "hour": "21", "workMode": "exit" },
+          { "hour": "22", "workMode": "exit" },
+          { "hour": "23", "workMode": "exit" }
+        ]
+      }
+    }
+  }
+}

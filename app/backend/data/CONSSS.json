@@ -1,0 +1,176 @@
+{
+  "available": [],
+  "unavailable": [],
+  "newDevice": [
+    {
+      "entity_id": "switch.tuttto_openspace",
+      "name": "Tuttto OpenSpace",
+      "state": "off"
+    },
+    {
+      "entity_id": "switch.rele_1_5",
+      "name": "Relè 1",
+      "state": "off"
+    },
+    {
+      "entity_id": "switch.rele_2_5",
+      "name": "Rele 2 Amintore",
+      "state": "on"
+    },
+    {
+      "entity_id": "switch.rele_3_5",
+      "name": "Relè 3",
+      "state": "off"
+    },
+    {
+      "entity_id": "switch.smart_switch_restart_5",
+      "name": "Smart switch Restart",
+      "state": "off"
+    },
+    {
+      "entity_id": "switch.rele_1_7",
+      "name": "Relè 1",
+      "state": "on"
+    },
+    {
+      "entity_id": "switch.rele_2_7",
+      "name": "Relè 2",
+      "state": "on"
+    },
+    {
+      "entity_id": "switch.rele_3_7",
+      "name": "Relè 3",
+      "state": "on"
+    },
+    {
+      "entity_id": "switch.smart_switch_restart_7",
+      "name": "Smart switch Restart",
+      "state": "off"
+    },
+    {
+      "entity_id": "switch.rele_1_4",
+      "name": "Relè 1",
+      "state": "on"
+    },
+    {
+      "entity_id": "switch.rele_2_4",
+      "name": "Relè 2",
+      "state": "on"
+    },
+    {
+      "entity_id": "switch.rele_3_4",
+      "name": "Relè 3",
+      "state": "on"
+    },
+    {
+      "entity_id": "switch.smart_switch_restart_4",
+      "name": "Smart switch Restart",
+      "state": "off"
+    },
+    {
+      "entity_id": "switch.rele_1_9",
+      "name": "Relè 1",
+      "state": "on"
+    },
+    {
+      "entity_id": "switch.rele_2_9",
+      "name": "Relè 2",
+      "state": "on"
+    },
+    {
+      "entity_id": "switch.rele_3_9",
+      "name": "Relè 3",
+      "state": "on"
+    },
+    {
+      "entity_id": "switch.smart_switch_restart_9",
+      "name": "Smart switch Restart",
+      "state": "off"
+    },
+    {
+      "entity_id": "switch.luci_cucinapiano1",
+      "name": "Luci CucinaPiano1",
+      "state": "off"
+    },
+    {
+      "entity_id": "switch.luci_localetecnico",
+      "name": "Luci LocaleTecnico",
+      "state": "off"
+    },
+    {
+      "entity_id": "switch.caldaia",
+      "name": "Caldaia",
+      "state": "off"
+    },
+    {
+      "entity_id": "switch.luci_salaserver1",
+      "name": "Luci SalaServer1",
+      "state": "off"
+    },
+    {
+      "entity_id": "switch.utenzecondizionamento_piano0",
+      "name": "UtenzeCondizionamento_Piano0",
+      "state": "off"
+    },
+    {
+      "entity_id": "switch.luci_ufficiofabio",
+      "name": "Luci UfficioFabio",
+      "state": "on"
+    },
+    {
+      "entity_id": "switch.luci_ufficiodario",
+      "name": "Luci UfficioDario",
+      "state": "off"
+    },
+    {
+      "entity_id": "switch.luci3_ingresso1",
+      "name": "luci 3 Ingresso 1",
+      "state": "on"
+    },
+    {
+      "entity_id": "switch.luci_ufficiomarketing",
+      "name": "Luci  UfficioMarketing",
+      "state": "on"
+    },
+    {
+      "entity_id": "switch.luci_bagno1",
+      "name": "Luci Bagno1",
+      "state": "off"
+    },
+    {
+      "entity_id": "switch.luci1_ingresso1",
+      "name": "Luci 1 Ingresso 1",
+      "state": "on"
+    },
+    {
+      "entity_id": "switch.luci2_ingresso1",
+      "name": "Luci 2 Ingresso 1",
+      "state": "on"
+    },
+    {
+      "entity_id": "switch.luci_salastampa0_channel_1",
+      "name": "Luci SalaStampa0 channel 1",
+      "state": "off"
+    },
+    {
+      "entity_id": "switch.luci_salastampa0_channel_2",
+      "name": "Luci SalaStampa0 channel 2",
+      "state": "off"
+    },
+    {
+      "entity_id": "switch.luci_bagnpiano0_channel_1",
+      "name": "Luci BagnoPiano0 uomini channel 1",
+      "state": "off"
+    },
+    {
+      "entity_id": "switch.luci_bagnpiano0_channel_2",
+      "name": "Luci BagnoPiano0 uomini channel 2",
+      "state": "off"
+    },
+    {
+      "entity_id": "switch.luci_bagno0",
+      "name": "Luci Bagno0",
+      "state": "off"
+    }
+  ]
+}

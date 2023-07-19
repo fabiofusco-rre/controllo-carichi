@@ -1,0 +1,15 @@
+name: "Load Manager"
+description: "Manages the grid load"
+version: "2.0.0"
+slug: "load_manager"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+startup: before
+homeassistant_api: true
+ports:
+  3001/tcp: 3001
